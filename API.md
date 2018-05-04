@@ -14,11 +14,12 @@ See:
 
 This allows you to retrieve token data, including price and volume data.
 
-volumeEther: total amount of volume traded across Enclaves and liquidity providers in Wei
-volumeEnclavesEther: total amount of volume traded across just Enclaves in Wei
-priceEnclaves: latest traded price on Enclaves
-change: 24 hour change in price
+volumeEther: total amount of volume traded across Enclaves and liquidity providers in Wei  
+volumeEnclavesEther: total amount of volume traded across just Enclaves in Wei  
+priceEnclaves: latest traded price on Enclaves  
+change: 24 hour change in price  
 
+```
 {
   "tokens": [
     {
@@ -42,6 +43,7 @@ change: 24 hour change in price
 ...
   ]
 }
+```
 
 ## subscribeUser
 
@@ -56,6 +58,7 @@ user_orders
 user_trades
 
 user_trades_SOW:
+```
 {
   "addr": "0xf8536ca7a25cbf70df754fa310079ada4c6114c2",
   "trades": [
@@ -87,8 +90,10 @@ user_trades_SOW:
 ...
   ]
 }
+```
 
-user_orders_SOW: Thu May 03 2018 22:32:35 GMT-0400 (EDT)
+user_orders_SOW
+```
 {
   "addr": "0xf8536ca7a25cbf70df754fa310079ada4c6114c2",
   "orders": [
@@ -131,6 +136,7 @@ user_orders_SOW: Thu May 03 2018 22:32:35 GMT-0400 (EDT)
 ...
   ]
 }
+```
 
 The data format for SOW and incremental update events are identical.
 
