@@ -1,7 +1,7 @@
 # API Documentation for Enclaves DEX
 
 The API is exposed using web sockets, with an endpoint of:  
-api.enclaves.io:80
+app.enclaves.io:80
 
 All volume values are not adjusted by decimals (so for Ether the values are denominated in Wei, and for tokens the values are denominated in the base amount of token).
 
